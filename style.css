@@ -22,6 +22,12 @@ h2 {
     margin: 10px;
 }
 
+#infobox {
+    text-align: center;
+    padding: 5px;
+
+}
+
 .workout {
     background-color: lightgray;
     padding: 3px 5px;
