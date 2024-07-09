@@ -2,13 +2,18 @@
     margin: 0;
 }
 
+nav {
+    position: sticky;
+    top: 0;
+    background-color: aliceblue;
+}
+
 nav ul {
     display: flex;
     list-style-type: none;
     padding: 5px;
     margin: 5px;
     justify-content: center;
-    position: sticky;
     top: 0;
     font-size: 125%;
     font-family: Arial, Helvetica, sans-serif
@@ -43,11 +48,15 @@ h2 {
     margin: 10px;
 }
 
+.container {
+    text-align: center;
+}
+
 .infobox {
     text-align: center;
     padding: 5px;
     background-color: gainsboro;
-    
+
 }
 
 .workout {
@@ -57,6 +66,11 @@ h2 {
     text-align: center;
     list-style-position: inside;
     font-family: 'Times New Roman', Times, serif;
+    min-width: 350px;
+    max-width: 400px;
+    height: 300px;
+    display: inline-block;
+    overflow: scroll;
 }
 
 .workout li {
@@ -65,6 +79,8 @@ h2 {
 
 .workout p {
     padding: 3px;
+    margin-bottom: 10px;
+    font-style: italic;
 }
 
 footer {
