@@ -1,1 +1,1 @@
-My first wholly made-by-me site. Contains my workout at the gym.
+My first wholly made-by-me site. Contains my gym workouts.
