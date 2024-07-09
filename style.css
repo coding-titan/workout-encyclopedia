@@ -116,6 +116,17 @@ th {
     margin: 4px;
 }
 
+#sideflag {
+    font-size: 14px;
+    width: 50px;
+    position: fixed;
+    top: 75%;
+    left: 0px;
+    background-color: white;
+    float: left;
+    padding: 3px;
+}
+
 footer {
     font-family: 'Times New Roman', Times, serif;
     margin: 30px 10px;
