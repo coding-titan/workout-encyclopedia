@@ -116,6 +116,10 @@ th {
     margin: 4px;
 }
 
+.exercise-header {
+    display: block;
+}
+
 #sideflag {
     font-size: 14px;
     width: 50px;
